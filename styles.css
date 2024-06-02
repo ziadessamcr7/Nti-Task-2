@@ -1,0 +1,40 @@
+html {
+	font-size: 16px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+table {
+	width: 1000px;
+	border-collapse: collapse;
+	table-layout: fixed;
+	background: url("../images/planet.png") no-repeat right top;
+	caption-side: bottom;
+}
+caption {
+	color: #f00;
+	text-transform: capitalize;
+	margin-top: 20px;
+}
+a {
+	color: #f00;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+a:hover {
+	color: #fff;
+	background-color: #f00;
+
+}
+
+
+td, th {
+	border: thin dashed #000;
+	padding: 10px;
+	text-align: center;
+
+}
+th {
+	background-color: rgba(105,239,255,0.35);
+	text-transform: capitalize;
+}
+
